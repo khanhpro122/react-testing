@@ -16,7 +16,7 @@ import { getDataLocal } from "../../utils";
 
 // Components
 import LoadingComponent from "../../components/Loading";
-import { useIsFirstRender } from "../../hooks/useIsFirstRender";
+import { useIsFirstRender } from "../../hooks/index";
 
 const HomePage = () => {
   // navigate
