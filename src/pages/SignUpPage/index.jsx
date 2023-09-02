@@ -77,7 +77,7 @@ const SignUpPage = () => {
 
   useEffect(() => {
     if(isSignUped) {
-      navigate('/singin')
+      navigate('/signin')
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSignUped])
