@@ -10,7 +10,6 @@ const initialState = {
 };
 
 export const userReducer = (state = initialState, action) => {
-  console.log({ action });
   switch (action.type) {
     case Types.initialData: {
       return {

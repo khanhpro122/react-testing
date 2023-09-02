@@ -53,7 +53,6 @@ const SignInPage = () => {
   const handleSignIn = (e) => {
     e.preventDefault();
     dispatch(loginUserAsync(formData))
-    console.log('isSuccess', )
   };
 
   useEffect(() => {

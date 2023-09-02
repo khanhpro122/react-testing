@@ -56,7 +56,6 @@ const SignUpPage = () => {
 
   const handleSignUp = (e) => {
     e.preventDefault();
-    console.log("form", { formData });
     dispatch(signUpUserAsync(formData, navigate));
   };
 
